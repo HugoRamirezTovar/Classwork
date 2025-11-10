@@ -1,6 +1,6 @@
 ---
 title: "Classwork Activity"
-author: "Enter Your Name"
+author: "Hugo Andres Ramirez Tovar"
 output: html_notebook
 ---
 
@@ -34,7 +34,7 @@ head(students)
 ### Question:
 Why might someone drop a column like name or ID from a dataset?
 
-### Answer:
+### Answer: Someone may drop a column like name or ID because the data is irrelevant or it may be redudant for the purpose of the dataset
 
 ## Step 3: Visualize
 ```{r}
@@ -62,6 +62,13 @@ ggplot(Students_Clean, aes(x = Major, y = Satisfaction, fill = Major)) +
 3. Do you think this chart is accurate?
 4. Why? Why not?
 
+### Answer:
+
+1. A pattern I see in the chart is that students staisfaction on math is the highest one, but a difference I notice is that in the table, the satisfaction level is 9.3, while in the graph is below 8
+2. One of the reasons could be that the values assigned to the chart are not as specific as the values appearing on the dataset, which led to a more ambigue result 
+3. The data at the chart is not accurate compared to the data in the dataset
+4. Because the diferenece bewtween the shown values in the graph and the dataset values are considerable
+
 ## Step 5: Questions on Git, GitHub and R Markdown
 
 ### Questions:
@@ -74,4 +81,10 @@ ggplot(Students_Clean, aes(x = Major, y = Satisfaction, fill = Major)) +
 6. How could R Markdown help you explain your analysis to someone else?
 
 ### Answers:
+
+1. The function of Git add is to preparing the changes you have made for the next commit
+2. Git commit record the changes in the repository, while Git push is used to interact with remote repositories
+3. GitHub is useful for code data projects because  it allows to keep track of changes
+4. version control helps keep track changes in collaborative projects
+5. a code chunks is the one that allows you to run th code you have made, while  regular text is the text you want to add a
 
